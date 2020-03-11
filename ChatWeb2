@@ -25,13 +25,13 @@
         var s = document.createElement('script');
         s.setAttribute('src', 'https://customer-zukl--CapitaChat.cs86.my.salesforce.com/embeddedservice/5.0/esw.min.js');
         s.onload = function() {
-	    console.log("onload if....");
-	    testfun(null);
+	    console.log("onload if 123456");
+	    callsvc(null);
         };
         document.body.appendChild(s);
     } else {
-    	console.log("onload else....");
-	testfun('https://service.force.com');
+    	console.log("onload else 12345");
+	callsvc('https://service.force.com');
     }
 </script>
 </body>
