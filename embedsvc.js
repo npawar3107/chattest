@@ -1,5 +1,5 @@
 function testfun(gslbBaseURL) {
-	console.log("testing.......");
+	console.log("testingggggggg.......");
 	
 	embedded_svc.settings.displayHelpButton = true; //Or false
         embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
