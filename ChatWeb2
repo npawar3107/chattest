@@ -17,7 +17,7 @@
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
     
-<script type='text/javascript' src='resource/1583937666000/EmbeddSvc.js'></script>
+<script type='text/javascript' src='https://customer-zukl--capitachat--c.cs86.visual.force.com/resource/1583937666000/EmbeddSvc.js'></script>
 	
 <script type='text/javascript'>
 
@@ -25,12 +25,12 @@
         var s = document.createElement('script');
         s.setAttribute('src', 'https://customer-zukl--CapitaChat.cs86.my.salesforce.com/embeddedservice/5.0/esw.min.js');
         s.onload = function() {
-	    console.log("onload if 1111");
+	    console.log("onload if 2222");
 	    callsvc(null);
         };
         document.body.appendChild(s);
     } else {
-    	console.log("onload else 1111");
+    	console.log("onload else 2222");
 	callsvc('https://service.force.com');
     }
 </script>
