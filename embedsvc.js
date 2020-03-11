@@ -1,5 +1,7 @@
 function testfun(gslbBaseURL) {
-		embedded_svc.settings.displayHelpButton = true; //Or false
+	console.log("testing.......");
+	/*
+	embedded_svc.settings.displayHelpButton = true; //Or false
         embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
         embedded_svc.settings.defaultMinimizedText = 'Agent Online'; //(Defaults to Chat with an Expert)
@@ -86,4 +88,5 @@ function testfun(gslbBaseURL) {
                 isOfflineSupportEnabled: false
             }
         );
+	*/
 }
