@@ -1,0 +1,36 @@
+<html>
+<body>
+   <h1>Let’s start chatting...</h1>
+  <br />
+  Click the button to start a chat.
+  <br /> 
+
+ <style type='text/css'>
+    .embeddedServiceHelpButton .helpButton .uiButton {
+        background-color: #005290;
+        font-family: "Arial", sans-serif;
+    }
+    .embeddedServiceHelpButton .helpButton .uiButton:focus {
+        outline: 1px solid #005290;
+    }
+</style>
+
+<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+    
+<script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+	
+<script type='text/javascript'>
+
+    if (!window.embedded_svc) {
+        var s = document.createElement('script');
+        s.setAttribute('src', 'https://customer-zukl--CapitaChat.cs86.my.salesforce.com/embeddedservice/5.0/esw.min.js');
+        s.onload = function() {
+            testfun(null);
+        };
+        document.body.appendChild(s);
+    } else {
+        testfun('https://service.force.com');
+    }
+</script>
+</body>
+</html>
