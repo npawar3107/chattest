@@ -1,4 +1,5 @@
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+<script type='text/javascript'>
 function testfun(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //Or false
         embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
@@ -88,3 +89,4 @@ function testfun(gslbBaseURL) {
             }
         );
 }
+</script>
