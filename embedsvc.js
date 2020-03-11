@@ -1,6 +1,6 @@
 function testfun(gslbBaseURL) {
 	console.log("testing.......");
-	/*
+	
 	embedded_svc.settings.displayHelpButton = true; //Or false
         embedded_svc.settings.language = ''; //For example, enter 'en' or 'en-US'
 
@@ -88,5 +88,5 @@ function testfun(gslbBaseURL) {
                 isOfflineSupportEnabled: false
             }
         );
-	*/
+	
 }
