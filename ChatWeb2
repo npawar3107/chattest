@@ -26,6 +26,7 @@
         s.setAttribute('src', 'https://customer-zukl--CapitaChat.cs86.my.salesforce.com/embeddedservice/5.0/esw.min.js');
         s.onload = function() {
 	    console.log("onload if");
+	    callsvc(null);
         };
         document.body.appendChild(s);
     } else {
