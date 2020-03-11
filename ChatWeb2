@@ -22,12 +22,12 @@
         var s = document.createElement('script');
         s.setAttribute('src', 'https://customer-zukl--CapitaChat.cs86.my.salesforce.com/embeddedservice/5.0/esw.min.js');
         s.onload = function() {
-	    console.log("onload if 2222");
+	    console.log("onload if 3333");
 	    callsvc(null);
         };
         document.body.appendChild(s);
     } else {
-    	console.log("onload else 2222");
+    	console.log("onload else 3333");
 	callsvc('https://service.force.com');
     }
 </script>
