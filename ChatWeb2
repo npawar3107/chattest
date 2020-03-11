@@ -17,7 +17,7 @@
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
     
-<script type='text/javascript' src='https://customer-zukl--capitachat--c.cs86.visual.force.com/resource/1583937666000/EmbeddSvc'></script>
+<script type='text/javascript' src='resource/1583937666000/EmbeddSvc.js'></script>
 	
 <script type='text/javascript'>
 
